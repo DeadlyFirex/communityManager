@@ -26,7 +26,7 @@ class FunCommands(Extension):
         SlashCommandOption("target", OptionType.USER, "Target user", required=True)
     ])
     async def cool_command(self, ctx: SlashContext, **kwargs):
-        match randint(0, 10) <= 3:
+        match randint(0, 10):
             case n if n == 1:
                 await ctx.send(f":star_struck: {ctx.kwargs["target"].mention} is the most amazing person EVAR!")
             case n if n <= 3:
