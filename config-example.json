@@ -1,0 +1,13 @@
+{
+  "application": {
+    "name": "bot",
+    "description": "A simple lightweight Discord application to manage small servers based on Python 3.8+ ",
+    "author": "DeadlyFirex",
+    "version": "0.0.1",
+    "include": "configuration/"
+  },
+  "configuration": {
+    "prefix": "!",
+    "format": "%A, %B %-d, %Y %-H:%M:%S"
+  }
+}
