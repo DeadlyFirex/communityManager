@@ -1,5 +1,5 @@
 #! /usr/bin/python
-from interactions import Client, Intents, listen, Status
+from interactions import Client, Intents, Status, listen
 from interactions.ext import prefixed_commands
 
 from services.configuration import Config
