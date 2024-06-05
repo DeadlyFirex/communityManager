@@ -1,0 +1,2 @@
+discord-py-interactions>=5.12.1
+python-configuration>=0.11.0
